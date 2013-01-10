@@ -55,3 +55,5 @@ set tabstop=8
 
 autocmd BufRead,BufNewFile Gemfile set ft=ruby
 autocmd FileType ruby set sw=2 sts=2
+
+let g:ruby_path = ':C:\ruby193\bin'
