@@ -15,3 +15,5 @@
 (add-to-list 'auto-mode-alist '("\\.ru$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\Rakefile$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\Gemfile$" . ruby-mode))
+
+(evil-define-key 'insert ruby-mode-map (kbd "RET") 'reindent-then-newline-and-indent)
