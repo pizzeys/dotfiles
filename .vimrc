@@ -6,6 +6,8 @@ set backupdir=~/.vim/tmp
 imap jj <Esc>
 cmap bc Bclose
 
+let mapleader=","
+
 set nocompatible
 set background=light
 filetype plugin indent on
@@ -37,8 +39,8 @@ set showmatch
 if has("gui_running")
     set mousehide
     set guioptions=aegirLt
-    colorscheme solarized
-    set guifont=Monaco\ 11
+    colorscheme macvim
+    set guifont=Monaco:h14
     set lines=30
     set columns=100
 endif
@@ -55,5 +57,13 @@ set tabstop=8
 
 autocmd BufRead,BufNewFile Gemfile set ft=ruby
 autocmd FileType ruby set sw=2 sts=2
+autocmd FileType go   set sw=4 ts=4 sts=0 pi ci noet
+autocmd FileType jade set sw=2 sts=2
 
 let g:ruby_path = ':C:\ruby193\bin'
+
+set tags=./tags;/
+
+inoremap <S-TAB> <C-X><C-O>
+
+let g:ruby_debugger_progname = 'mvim'

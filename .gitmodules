@@ -28,3 +28,9 @@
 [submodule ".vim/bundle/xptemplate"]
 	path = .vim/bundle/xptemplate
 	url = https://github.com/drmingdrmer/xptemplate.git
+[submodule ".vim/bundle/vim-ruby"]
+	path = .vim/bundle/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule ".vim/bundle/fsharp-vim"]
+	path = .vim/bundle/fsharp-vim
+	url = https://github.com/kongo2002/fsharp-vim.git
