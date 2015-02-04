@@ -55,6 +55,7 @@ set smartcase
 set shiftwidth=4
 set softtabstop=4
 set tabstop=8
+set textwidth=79
 
 autocmd BufRead,BufNewFile Gemfile set ft=ruby
 autocmd FileType ruby set sw=2 sts=2
