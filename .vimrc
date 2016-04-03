@@ -59,7 +59,7 @@ set textwidth=79
 
 autocmd BufRead,BufNewFile Gemfile set ft=ruby
 autocmd FileType ruby set sw=2 sts=2
-autocmd FileType go   set sw=4 ts=4 sts=0 pi ci noet
+autocmd FileType go   set nolist
 autocmd FileType jade set sw=2 sts=2
 
 let g:ruby_path = ':C:\ruby193\bin'
